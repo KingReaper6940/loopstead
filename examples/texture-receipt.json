@@ -1,0 +1,79 @@
+{
+  "schema": "loopstead-receipt-v1",
+  "project": {
+    "schema": "loopstead-project-v1",
+    "title": "Weekend texture study",
+    "notes": "Invented counting example, not a knitting pattern. Finish the row first, then tap. Check the fabric if you lose your place.",
+    "parts": [
+      {
+        "id": "p1",
+        "name": "Front panel",
+        "completed": 15,
+        "repeatStart": 1,
+        "repeatLength": 8,
+        "target": 80,
+        "notes": "Next: work row 16. Repeat 2, row 8."
+      },
+      {
+        "id": "p2",
+        "name": "Left sleeve",
+        "completed": 5,
+        "repeatStart": 7,
+        "repeatLength": 6,
+        "target": 60,
+        "notes": "Repeat tracking begins at row 7, after six setup rows."
+      },
+      {
+        "id": "p3",
+        "name": "Right sleeve",
+        "completed": 0,
+        "repeatStart": 7,
+        "repeatLength": 6,
+        "target": 60,
+        "notes": ""
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "p1",
+      "name": "Front panel",
+      "completed": 15,
+      "next": 16,
+      "canAdvance": true,
+      "remaining": 65,
+      "targetMet": false,
+      "repeats": 1,
+      "nextRepeat": {
+        "number": 2,
+        "row": 8,
+        "length": 8
+      },
+      "beforeRepeat": false
+    },
+    {
+      "id": "p2",
+      "name": "Left sleeve",
+      "completed": 5,
+      "next": 6,
+      "canAdvance": true,
+      "remaining": 55,
+      "targetMet": false,
+      "repeats": 0,
+      "nextRepeat": null,
+      "beforeRepeat": true
+    },
+    {
+      "id": "p3",
+      "name": "Right sleeve",
+      "completed": 0,
+      "next": 1,
+      "canAdvance": true,
+      "remaining": 60,
+      "targetMet": false,
+      "repeats": 0,
+      "nextRepeat": null,
+      "beforeRepeat": true
+    }
+  ]
+}
