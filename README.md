@@ -2,6 +2,8 @@
 
 **Know what you finished. See what to work next.**
 
+[Open Loopstead](https://loopstead.vercel.app)
+
 A local row counter for small knitting and crochet projects. Keep independent parts together, track repeating row blocks, and leave yourself a clear place to return.
 
 ![An actual exported count snapshot](examples/texture-resume.svg)
